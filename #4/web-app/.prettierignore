@@ -1,0 +1,20 @@
+# Ignore build outputs
+build/
+.svelte-kit/
+dist/
+node_modules/
+
+# Ignore package files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore generated files
+.env
+.env.*
+!.env.example
+
+# Ignore config files that should maintain their format
+*.config.js
+*.config.ts
+vite.config.ts
